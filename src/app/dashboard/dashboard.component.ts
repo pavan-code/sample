@@ -13,9 +13,12 @@ export class DashboardComponent  {
   constructor(private fb: FormBuilder) { }
   
   isDisabled = true;
+  showUpdate = true;
   student = DETAILS[1];  
   change() {
     this.isDisabled = false;
+    this.showUpdate = false;
+
   }
 
   // get username() {

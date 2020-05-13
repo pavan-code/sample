@@ -34,6 +34,7 @@
                     <span>Email :</span> <br> <br>
                     <input [disabled] = 'isDisabled' type="text" matInput value={{student.email}}>
                 </mat-form-field> <br>
+                <button color='primary' align='end' mat-raised-button [class.d-none]='showUpdate'>Update</button> <br><br>
                 <mat-form-field>
                     <span>User ID: </span> <br> <br>
                     <input disabled type="text" matInput value={{student.userid}}>
